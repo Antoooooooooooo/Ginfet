@@ -31,15 +31,15 @@ import MisionImg from '../imagenes/MisionVision.jpg' // Adjust if needed
 
 export const Conocenos = () => {
   const profesionales = [
-    { img: DSarabia, title: 'Dr Daniel Sarabia', text: 'Texto secundario' },
-    { img: ACanales, title: 'Dra Angela Canales', text: 'Texto secundario' },
+    { img: DSarabia, title: 'Dr Daniel Sarabia', text: '' },
+    { img: ACanales, title: 'Dra Angela Canales', text: '' },
     { img: HAcosta, title: 'Dr Hernando Acosta', text: 'Radicado hace 12 años en Chile. Estudios de pregrado como Médico- cirujano  de la Universidad metropolitana de Barranquilla, Colombia. Egresado de la especialidad de Ginecología y Obstetricia de la Universidad de Chile el año 2018. Médico Gineco-Obstetra titular del hospital de Rengo' },
     { img: VRosenthal, title: 'Matrona Valentina Rosenthal', text: 'Egresada de la Universidad de Concepción de la carrera Obstetricia y Puericultura ganando así el título de Matrona el año 2016. Experiencia laboral en todas las clínicas de Rancagua y hospital Regional Rancagua.' },
     { img: AArevalo, title: 'Matrona Alejandra Arevalo', text: 'Matrona egresada con honores de la Universidad Mayor de la carrera de Obstetricia y Puericultura en el año 2011. Master en Lactancia Materna y con certificación IBCLC. Matrona con gran experiencia en el ámbito de la lactancia, asesorando y acompañando lactancias en el ámbito público y privado .' },
     { img: SZavala, title: 'Matrona Sandra Zavala', text: 'Matrona titulada de la Universidad de Concepción. Me dedico principalmente a la atención de embarazadas, preparto y post parto. Realizo ecografias obstétricas y ginecólogica. Cuento con 2 Diplomados en ecografía, el primero realizado en la Universidad Mayor el año 2013 y el segundo realizado el 2019, certificado por el MINSAL, realizado en la Universidad Austral. También tengo con un Diplomado en Salud Familiar y Diplomado en Salud Integral del Adolescente ambos certificados por la Universidad de Chile. Además de certificaciones varias en procedimientos de inserción y extracción de métodos anticonceptivos de larga duración' },
-    { img: MAguilar, title: 'Matrona Marta Aguilar', text: 'Texto secundario' },
-    { img: Nadia, title: 'Nadia', text: 'Texto secundario' },
-    { img: Kiara, title: 'Kiara', text: 'Texto secundario' },
+    { img: MAguilar, title: 'Matrona Marta Aguilar', text: '' },
+    { img: Nadia, title: 'Nadia', text: '' },
+    { img: Kiara, title: 'Kiara', text: '' },
 
 
   ]
