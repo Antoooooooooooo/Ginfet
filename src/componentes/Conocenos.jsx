@@ -54,7 +54,7 @@ export const Conocenos = () => {
         <div className="card mb-5 border shadow-sm">
           <div className="row g-0">
             <div className="col-md-4">
-              <img src={MisionImg} className="img-fluid rounded-start h-100" alt="Equipo médico" style={{ objectFit: 'cover' }} />
+              <img src={MisionImg} className="img-fluid w-100 h-100" alt="Equipo médico" style={{ objectFit: 'cover', minHeight: '300px' }} />
             </div>
             <div className="col-md-8 d-flex align-items-center">
               <div className="card-body">
@@ -69,12 +69,12 @@ export const Conocenos = () => {
         {/* Section: Profesionales */}
         <h2 className="text-center mb-5 display-6">Profesionales</h2>
 
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center">
 
           {profesionales.map((prof, index) => (
             <div className="col" key={index}>
               <div className="card h-100 border shadow-sm">
-                <img src={prof.img} className="card-img-top" alt={prof.title} style={{ height: '200px', objectFit: 'cover', objectPosition: 'top' }} />
+                <img src={prof.img} className="card-img-top w-100 mx-auto d-block" alt={prof.title} style={{ aspectRatio: '1/1', objectFit: 'cover', objectPosition: 'top' }} />
                 <div className="card-body text-center p-2">
                   <h6 className="card-title fw-bold mb-1">{prof.title}</h6>
                   <p className="card-text small text-muted">{prof.text}</p>

@@ -28,21 +28,21 @@ export const Inicio = () => {
             </div>
             <div className="carousel-inner rounded shadow">
               <div className="carousel-item active">
-                <img src={Ginecologia} className="d-block w-100" alt="Ginecología" style={{ height: '550px', objectFit: 'cover' }} />
+                <img src={Ginecologia} className="d-block w-100" alt="Ginecología" style={{ aspectRatio: '16/9', objectFit: 'cover', maxHeight: '550px' }} />
                 <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2 rounded">
                   <h5>Ginecología Integral</h5>
                   <p>Cuidado especializado para la salud de la mujer en todas las etapas de su vida.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={Eco} className="d-block w-100" alt="Ecografías" style={{ height: '550px', objectFit: 'cover' }} />
+                <img src={Eco} className="d-block w-100" alt="Ecografías" style={{ aspectRatio: '16/9', objectFit: 'cover', maxHeight: '550px' }} />
                 <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2 rounded">
                   <h5>Ecografías 3D/4D</h5>
                   <p>Tecnología de última generación para ver el crecimiento de tu bebé.</p>
                 </div>
               </div>
               <div className="carousel-item">
-                <img src={Embarazo} className="d-block w-100" alt="Obstetricia" style={{ height: '550px', objectFit: 'cover' }} />
+                <img src={Embarazo} className="d-block w-100" alt="Obstetricia" style={{ aspectRatio: '16/9', objectFit: 'cover', maxHeight: '550px' }} />
                 <div className="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-2 rounded">
                   <h5>Control de Embarazo</h5>
                   <p>Acompañamiento profesional y cercano durante tu gestación.</p>
@@ -85,6 +85,6 @@ export const Inicio = () => {
       </main>
 
       <Footer />
-    </div>
+    </div >
   )
 }

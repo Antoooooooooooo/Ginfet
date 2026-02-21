@@ -67,7 +67,7 @@ export const Servicios = () => {
                                     src={obstetriciaImg}
                                     className="card-img-top"
                                     alt="Obstetricia"
-                                    style={{ height: '200px', objectFit: 'cover' }}
+                                    style={{ aspectRatio: '16/10', width: '100%', objectFit: 'cover' }}
                                 />
                                 <div className="card-body text-center p-3">
                                     <h5 className="card-title fw-bold mb-2">Consulta obstetrica (embarazo)</h5>
@@ -85,7 +85,7 @@ export const Servicios = () => {
                                     src={partoImg}
                                     className="card-img-top"
                                     alt="Partos"
-                                    style={{ height: '200px', objectFit: 'cover' }}
+                                    style={{ aspectRatio: '16/10', width: '100%', objectFit: 'cover' }}
                                 />
                                 <div className="card-body text-center p-3">
                                     <h5 className="card-title fw-bold mb-2">Partos</h5>
@@ -103,7 +103,7 @@ export const Servicios = () => {
                                     src={lactanciaImg}
                                     className="card-img-top"
                                     alt="Lactancia materna"
-                                    style={{ height: '200px', objectFit: 'cover' }}
+                                    style={{ aspectRatio: '16/10', width: '100%', objectFit: 'cover' }}
                                 />
                                 <div className="card-body text-center p-3">
                                     <h5 className="card-title fw-bold mb-2">Lactancia materna</h5>
@@ -121,7 +121,7 @@ export const Servicios = () => {
                                     src={monitorImg}
                                     className="card-img-top"
                                     alt="Monitor fetal"
-                                    style={{ height: '200px', objectFit: 'cover' }}
+                                    style={{ aspectRatio: '16/10', width: '100%', objectFit: 'cover' }}
                                 />
                                 <div className="card-body text-center p-3">
                                     <h5 className="card-title fw-bold mb-2">Monitor fetal</h5>
@@ -139,7 +139,7 @@ export const Servicios = () => {
                                     src={pruebaImg}
                                     className="card-img-top"
                                     alt="Prueba de embarazo"
-                                    style={{ height: '200px', objectFit: 'cover' }}
+                                    style={{ aspectRatio: '16/10', width: '100%', objectFit: 'cover' }}
                                 />
                                 <div className="card-body text-center p-3">
                                     <h5 className="card-title fw-bold mb-2">Prueba de embarazo</h5>
@@ -157,7 +157,7 @@ export const Servicios = () => {
                                     src={biopsiaImg}
                                     className="card-img-top"
                                     alt="Biopsias ginecologicas"
-                                    style={{ height: '200px', objectFit: 'cover' }}
+                                    style={{ aspectRatio: '16/10', width: '100%', objectFit: 'cover' }}
                                 />
                                 <div className="card-body text-center p-3">
                                     <h5 className="card-title fw-bold mb-2">Biopsias ginecologicas</h5>
@@ -175,7 +175,7 @@ export const Servicios = () => {
                                     src={citologiaImg}
                                     className="card-img-top"
                                     alt="Citologías"
-                                    style={{ height: '200px', objectFit: 'cover' }}
+                                    style={{ aspectRatio: '16/10', width: '100%', objectFit: 'cover' }}
                                 />
                                 <div className="card-body text-center p-3">
                                     <h5 className="card-title fw-bold mb-2">Citologías</h5>
@@ -193,7 +193,7 @@ export const Servicios = () => {
                                     src={consultaImg}
                                     className="card-img-top"
                                     alt="Consulta ginecológica"
-                                    style={{ height: '200px', objectFit: 'cover' }}
+                                    style={{ aspectRatio: '16/10', width: '100%', objectFit: 'cover' }}
                                 />
                                 <div className="card-body text-center p-3">
                                     <h5 className="card-title fw-bold mb-2">Consulta ginecológica</h5>
@@ -259,7 +259,7 @@ export const Servicios = () => {
                                     src={ecoImg}
                                     className="card-img-top"
                                     alt="Ecografías ginecológicas"
-                                    style={{ height: '300px', objectFit: 'cover' }}
+                                    style={{ aspectRatio: '4/3', width: '100%', objectFit: 'cover' }}
                                 />
                                 <div className="card-body text-center p-3">
                                     <h5 className="card-title fw-bold mb-2">Ecografías ginecológicas (Transvaginal y abdominal) </h5>
@@ -277,7 +277,7 @@ export const Servicios = () => {
                                     src={ecoObstetricaImg}
                                     className="card-img-top"
                                     alt="Ecografías obstétricas"
-                                    style={{ height: '300px', objectFit: 'cover' }}
+                                    style={{ aspectRatio: '4/3', width: '100%', objectFit: 'cover' }}
                                 />
                                 <div className="card-body text-center p-3">
                                     <h5 className="card-title fw-bold mb-2">Ecografías obstétricas</h5>
