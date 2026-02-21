@@ -270,24 +270,6 @@ export const Servicios = () => {
                             </div>
                         </SwiperSlide>
 
-                        {/* Card 2: Ecografía mamaria */}
-                        <SwiperSlide className="h-auto">
-                            <div className="card h-100 border shadow-sm mx-2">
-                                <img
-                                    src={monitorImg}
-                                    className="card-img-top"
-                                    alt="Ecografía mamaria"
-                                    style={{ height: '300px', objectFit: 'cover' }}
-                                />
-                                <div className="card-body text-center p-3">
-                                    <h5 className="card-title fw-bold mb-2">Ecografía mamaria</h5>
-                                    <p className="card-text text-muted" style={{ fontSize: '0.8rem' }}>
-                                        Es una técnica diagnóstica que utiliza ondas de ultrasonidos imperceptibles al oído humanos, no invasiva ni dolorosa, se complementa con la mamografía para estudiar nódulos o mamás densas.
-                                    </p>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
                         {/* Card 3: Ecografías obstétricas */}
                         <SwiperSlide className="h-auto">
                             <div className="card h-100 border shadow-sm mx-2">

@@ -28,9 +28,9 @@ export const Footer = () => {
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2"><span className="nav-link p-0 text-white-50"><i className="bi bi-geo-alt-fill me-2"></i> Bombero Villalobos, 1049 oficina 609. Rancagua</span></li>
                             <li className="nav-item mb-2"><span className="nav-link p-0 text-white-50"><i className="bi bi-clock-fill me-2"></i>
-                                Lun – Vie: 9:00am - 19:00pm
-                                Sábados: 9:00am- 19:00pm
-                                Domingo : Cerrado</span></li>
+                                Lun – Vie: 9:00am - 19:00pm</span></li>
+                            <li className="nav-item mb-2"><span className="nav-link p-0 text-white-50"><i className=""></i>
+                                Sab y Dom: Cerrado </span></li>
                         </ul>
                     </div>
 
